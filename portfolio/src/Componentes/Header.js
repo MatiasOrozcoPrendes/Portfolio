@@ -10,7 +10,10 @@ const Header = () => {
     
         </div>
         <div className='UnaLinea'>
-          
+          <h4 className='Botones'><a href='#DatosPersonales'>Info Personal</a></h4>
+          <h4 className='Botones'><a href='#Formacion'>Formación</a></h4>
+          <h4 className='Botones'><a href='#Experiencia'>Experiencia</a></h4>
+          <h4 className='Botones'><a href='#RedesSociales'>Redes Sociales</a></h4>
         </div>
         
     </div>
