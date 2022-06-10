@@ -3,6 +3,7 @@ import fotoFacebook from '../Imagenes/facebook.png'
 import fotoInstagram from '../Imagenes/instagram.png'
 import fotoLinkedin from '../Imagenes/linkedin.png'
 import fotoSpotify from '../Imagenes/spotify.png'
+import fotoGithub from '../Imagenes/github.png'
 
 const RedesSociales = () => {
   return (
@@ -26,6 +27,12 @@ const RedesSociales = () => {
             alt="Logo Linkedin "
         />
         </a>  
+        <a href='https://github.com/MatiasOrozcoPrendes' target='_blank' rel="noreferrer">
+        <img className='Logo'
+            src={fotoGithub}
+            alt="Logo Github "
+        />
+        </a> 
         <a href='https://open.spotify.com/user/12146079500' target='_blank' rel="noreferrer">
         <img className='Logo'
             src={fotoSpotify}
